@@ -2,15 +2,17 @@
 
 - Setup and add circle to canvas to test that we get an output
 
-`function setup() {
-createCanvas(400, 400);
+```js
+function setup() {
+  createCanvas(400, 400);
 }
 
 function draw() {
-background(220);
-push();
-translate(width / 2, height / 2);
+  background(220);
+  push();
+  translate(width / 2, height / 2);
 
-ellipse(0, 0, 20, 20);
-pop();
-}`
+  ellipse(0, 0, 20, 20);
+  pop();
+}
+```
