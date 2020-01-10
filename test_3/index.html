@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test 3 - Add Rotation</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+
+    <!-- Generative Design Dependencies here -->
+    <!-- GG Bundled -->
+    <script src="https://cdn.jsdelivr.net/gh/generative-design/Code-Package-p5.js@master/libraries/gg-dep-bundle/gg-dep-bundle.js"></script>
+    <!-- Opentype -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/opentype.js/0.7.3/opentype.min.js"></script>
+    <!-- Rita -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rita/1.3.11/rita-small.min.js"></script>
+    <!-- Chroma -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.3.6/chroma.min.js"></script>
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Test 3 - Add Rotation</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="canvasHolder"></div>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-2">
+              <h3>Size:</h3>
+              <div id="sizeSlider" class="col-12"></div>
+            </div>
+            <div class="col-2">
+              <h3>Stroke:</h3>
+              <div id="strokeRadio" class="col-12"></div>
+            </div>
+            <div class="col-2">
+              <h3>Hue:</h3>
+              <div id="hueSlider" class="col-12"></div>
+            </div>
+            <div class="col-2">
+              <h3>Saturation:</h3>
+              <div id="saturationSlider" class="col-12"></div>
+            </div>
+            <div class="col-2">
+              <h3>Brightness:</h3>
+              <div id="brightnessSlider" class="col-12"></div>
+            </div>
+            <div class="col-2">
+              <h3>Opacitiy:</h3>
+              <div id="opacitySlider" class="col-12"></div>
+            </div>
+
+            <div class="col-2">
+              <h3>Shape:</h3>
+              <div id="shapeRadio" class="col-12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
